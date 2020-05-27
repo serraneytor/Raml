@@ -1,0 +1,26 @@
+#%RAML 1.0 DataType
+
+type: object
+properties:
+
+ payment_method:
+   properties:
+      bank_account:
+        
+        properties:      
+         first_name:
+           type: string 
+
+         last_name:
+           type: string 
+
+         bank_routing_number:
+           type: string  
+
+         bank_account_number:
+           type: string  
+
+ 
+              
+ 
+example: !include PayMethod.json
